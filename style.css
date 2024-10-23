@@ -105,3 +105,22 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+
+/* ----------------------------Responsive---------------------------- */
+
+
+@media only screen and (max-width: 600px){
+    .search input{
+        width: 100%;
+    }
+    .wind, .humidity{
+        /* display: inline-block; */
+        font-size: 15px;
+    }
+    .details {
+    padding: -1px 20px;
+    margin-top: 20px;
+    }
+}
